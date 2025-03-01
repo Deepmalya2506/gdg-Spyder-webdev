@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+}
+.img{
+    width: 1440px;
+    height: 750px;
+}
+.headcont{
+    position: relative;
+    top: -47em;
+    color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25em;
+}
+.sc1{
+    color: white;
+    display: flex;
+    list-style: none;   
+}
+.sc2{
+    color: white;
+    display: flex;
+    column-gap: 1em;
+    list-style: none;
+}
+.sc3{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.navbar{
+    position: sticky;
+    height: 3%;
+    z-index: 2;
+}
+.headcont{
+    color: #000000;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25em;
+}
+.sc1{
+    display: flex;
+    list-style: none;   
+}
+.sc2{
+    display: flex;
+    column-gap: 1em;
+    list-style: none;
+}
+.sc3{
+    display: flex;
+    list-style: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2em;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    border: 1px solid black;
+    position: relative;
+    top: -47em;
+}
+
+.sora{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:10;
+    font-style: normal;
+    font-size: 45px;
+  }
